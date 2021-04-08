@@ -1,5 +1,4 @@
 let myImg = null
-myImg = document.getElementById('anh')
 
 function init() {
     myImg = document.getElementById('anh')
@@ -10,5 +9,4 @@ function init() {
 function moveRight() {
     myImg.style.left = parseInt(myImg.style.left) + 30 + 'px'
 }
-
 window.onload = init;
